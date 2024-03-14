@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuqueReader</title>
+    <link rel="stylesheet" type="text/css" href="https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_lakex-doc/1.12.0/umd/doc.css"/>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/antd@4.24.13/dist/antd.css"/>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      #side-nav, #root {
+        height: 100vh;
+        overflow: auto;
+      }
+      #side-nav {
+        width: 300px;
+        border-right: 1px solid #f0f0f0;
+      }
+      #root {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="side-nav"></div>
+    <div id="root" class="ne-doc-major-viewer"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_lakex-doc/1.12.0/umd/doc.umd.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
